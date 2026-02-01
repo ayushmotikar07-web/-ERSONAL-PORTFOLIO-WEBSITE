@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayush Motikar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            scroll-behavior: smooth;
+            background: linear-gradient(135deg, #fff7ad, #ffd6e8);
+        }
+
+        /* NAVBAR */
+        nav {
+            position: fixed;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: black;
+            padding: 10px;
+            border-radius: 30px;
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            background: #ffd700;
+            color: black;
+        }
+
+        /* SECTIONS */
+        section {
+            min-height: 100vh;
+            padding: 100px 40px 40px;
+        }
+
+        /* HOME */
+        #home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #home p {
+            font-size: 18px;
+            color: #555;
+            max-width: 500px;
+            margin-bottom: 20px;
+        }
+
+        #home h1 {
+            font-size: 90px;
+            font-weight: bold;
+        }
+
+        /* ABOUT, SKILLS, PROJECTS, CONTACT */
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            max-width: 700px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        /* CONTACT */
+        #contact p {
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            #home h1 {
+                font-size: 55px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <p>
+            Hello! I am a Web Developer Intern,  
+            building modern and responsive websites.
+        </p>
+        <h1>Ayush<br>Motikar</h1>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content">
+            I am a beginner web developer currently doing a web development
+            internship. I am learning HTML, CSS, and basic JavaScript and
+            interested in creating clean and responsive websites.
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>C Programming</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="content">
+            <p>• Smart Street Light System</p>
+            <p>• Analytical Approach to Product Review Authenticity Detection</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>mobile: 8180895803</h2>
+        <p>Email: ayushmotikar07@gmail.com</p>
+        <p>GitHub: https://github.com/ayushmotikar07-web</p>
+    </section>
+
+</body>
+</html>
